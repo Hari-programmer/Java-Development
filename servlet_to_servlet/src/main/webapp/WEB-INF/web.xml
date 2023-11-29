@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>
+  <servlet-name>Mysearch</servlet-name>
+  <servlet-class>com.sendredirect.Mysearch</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Mysearch</servlet-name>
+  <url-pattern>/Mysearch</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <!--  
+  
+  
+  <servlet>
+  <servlet-name>Redirect</servlet-name>
+  <servlet-class>com.servlet.Redirect</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Redirect</servlet-name>
+  <url-pattern>/Redirect</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Recieve</servlet-name>
+  <servlet-class>com.servlet.Recieve</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Recieve</servlet-name>
+  <url-pattern>/Recieve</url-pattern>
+  </servlet-mapping>
+  -->
+</web-app>
+</element>
